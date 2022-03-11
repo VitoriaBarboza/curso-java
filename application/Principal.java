@@ -22,7 +22,7 @@ public class Principal {
 		System.out.println("Quantity in stock: ");
 		product.quantity = sc.nextInt();
 		
-		//ao apagar o .toString() o java automaticamente detecta que meu objeto esta num contexto  de um println que esta esperando string e implicitamente ele vai chamar o toString
+		
 		System.out.println("Product data: " + product); 
 		//System.out.printf(product.toString());
 		
